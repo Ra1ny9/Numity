@@ -4,7 +4,8 @@
 A command-line Python game where players try to guess a random number between 1 and 99 based on progressively revealed hints.
 
 ## Project Structure
-- `Untitled3.py` - Main game file containing all game logic and hint functions
+- `game.py` - Main game file containing all game logic and hint functions
+- `README.md` - Project documentation with instructions and game rules
 
 ## How It Works
 The game generates a random number between 1-99 and provides up to 10 hints to help the player guess it:
@@ -21,7 +22,7 @@ The game generates a random number between 1-99 and provides up to 10 hints to h
 10. Digit sum
 
 ## Running the Game
-The game runs automatically in the console when you start the Replit. Simply follow the prompts to enter your guesses.
+The game runs automatically in the console when you click Run. Simply follow the prompts to enter your guesses.
 
 ## Technical Details
 - Language: Python 3.12
@@ -30,4 +31,6 @@ The game runs automatically in the console when you start the Replit. Simply fol
 - Input validation for user guesses (1-99 range)
 
 ## Recent Changes
+- 2024-12-04: Renamed main file from Untitled3.py to game.py
+- 2024-12-04: Added README.md documentation
 - 2024-12-01: Initial import and setup for Replit environment
